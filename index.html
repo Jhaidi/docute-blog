@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <title>docs</title>
+  <link rel="stylesheet" href="./asset/docute.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script src="./asset/docute.js"></script>
+  <script>
+    docute.init({
+      nav: [
+        { title: 'Home', path: '/' },
+        { 
+          title: 'Webpack',type: 'dropdown', items: [
+          { type: 'label', title: 'Webpack' },
+          { title: 'webpack', path: '/note/webpack/buildvue' }
+        ]},
+        {
+          title: 'Node', type: 'dropdown', items: [
+            { type: 'label', title: 'Node' },
+            { title: 'node实现文件上传', path: '/note/node/uploadfile' }
+          ]
+        }
+      ]
+    })
+  </script>
+</body>
+</html>
