@@ -134,7 +134,7 @@ url | method | 参数
 --- | --- | ---
 http://123.56.220.217:3030/list | get | type(Number),name(String)
 http://123.56.220.217:3030/submit | post | name(String),其他参数自选
-http://123.56.220.217:3030/delete/:id | delete | id(Number || String)
+http://123.56.220.217:3030/delete/:id | delete | id(55022299 --- 固定参数) 
 
 以上接口请求成功后返回字段中包含
 
